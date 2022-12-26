@@ -78,3 +78,5 @@ C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\M
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
