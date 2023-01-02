@@ -1,0 +1,12 @@
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\bin\Debug\net7.0\MagicVilla_Utilidad.deps.json
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\bin\Debug\net7.0\MagicVilla_Utilidad.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\bin\Debug\net7.0\MagicVilla_Utilidad.pdb
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\MagicVilla_Utilidad.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\MagicVilla_Utilidad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\MagicVilla_Utilidad.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\MagicVilla_Utilidad.AssemblyInfo.cs
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\MagicVilla_Utilidad.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\MagicVilla_Utilidad.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\refint\MagicVilla_Utilidad.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\MagicVilla_Utilidad.pdb
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Utilidad\obj\Debug\net7.0\ref\MagicVilla_Utilidad.dll

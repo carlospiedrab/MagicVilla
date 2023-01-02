@@ -1,0 +1,41 @@
+﻿@using Microsoft.AspNetCore.Components
+@model IEnumerable<MagicVilla_Web.Models.Dto.VillaDto>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="row" style="--bs-gutter-x:0">
+    @foreach (var villa in Model)
+    {
+        <div class="p-4 col-md-12 col-lg-6">
+            <div class="row" style="border-radius:20px; border: 1px solid">
+                <div class="col-4">
+                    <img class="d-block w-100 mt-2" style="border-radius:20px;" src="@villa.ImagenUrl" alt="Imagen Villa">
+                </div>
+                <div class="col-8">
+                    <p class="card-title text-info" style="font-size:xx-large">@villa.Nombre</p>
+                    <p class="card-text">@((MarkupString)villa.Detalle)</p>
+                </div>
+                <div class="col-12">
+                    <div class="row pb-3 pt-2">
+                        <div class="ccol-12 col-sm-4">
+                            <a href="" class="btn btn-primary form-control btn-block">Reservar</a>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <span class="pt-1 fw-bold fs-6">Ocupantes : @villa.Ocupantes</span><br />
+                            <span class="pt-1 fw-bold fs-6">Tamaño : @villa.MetrosCuadrados m &sup2</span><br />
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <span class="text-info float-end font-weight-bold pt-1 fw-bold" style="font-size:18px">
+                                Usd
+                                <span style="border-bottom:1px solid #0323EE">@villa.Tarifa.ToString("c")</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
