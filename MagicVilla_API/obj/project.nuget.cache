@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jkGNkBDcUSRf4yF9AEEFkWpRJ/Dc4Oh3QI7lneoh9S+Zela4Nr2y5m+R57wFUTf3r1aPRX6On5Nhg6j8k5z43Q==",
+  "dgSpecHash": "2HE3wRPh6yxwQMWt5z10prxMvFHCced9ifgbsQ5aBk2Y4GgVDOWfP17xUyjFIFtdtkPc5/Veuww6r7UfFevQ8Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Admin\\Documents\\BaezStone\\Udemy\\RestFulApiNetCore\\Proyecto\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.1\\microsoft.aspnetcore.authentication.jwtbearer.7.0.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\7.0.0\\microsoft.aspnetcore.jsonpatch.7.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\7.0.0\\microsoft.aspnetcore.mvc.newtonsoftjson.7.0.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.0\\microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",

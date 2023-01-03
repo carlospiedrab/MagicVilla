@@ -88,6 +88,25 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.JsonPatch/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -1421,6 +1440,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.1": {
+      "sha512": "2pZZ1GQExpBV8xdRoS1RbopSXBnZBN6INA4KBb8utk6BDLzqHzfF7PCVPRS9YuPx/UHVOU8SJiPjWpcxTsvghw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.7.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.JsonPatch/7.0.0": {
@@ -4113,6 +4147,7 @@
     "net7.0": [
       "AutoMapper >= 12.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 7.0.1",
       "Microsoft.AspNetCore.JsonPatch >= 7.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 7.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
@@ -4176,6 +4211,10 @@
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[12.0.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[7.0.1, )"
           },
           "Microsoft.AspNetCore.JsonPatch": {
             "target": "Package",
