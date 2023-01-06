@@ -37,7 +37,7 @@ namespace MagicVilla_API.Controllers
         }
 
 
-        [HttpPost("registrar")]   // /api/usuario/login
+        [HttpPost("registrar")]   // /api/usuario/registrar
         public async Task<IActionResult> Registrar([FromBody] RegistroRequestDTO modelo)
         {
             bool isUsuarioUnico = _usuarioRepo.IsUsuarioUnico(modelo.UserName);

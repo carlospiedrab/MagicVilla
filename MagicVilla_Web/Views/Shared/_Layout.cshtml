@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@using MagicVilla_Utilidad;
+
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor httpContextAcc
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -29,7 +33,26 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="NumeroVilla" asp-action="IndexNumeroVilla">Numero Villa</a>
-                        </li>
+                        </li>                      
+                    </ul>     
+                    <ul class="navbar-nav d-flex">
+                        @if (httpContextAcc.HttpContext.Session.GetString(DS.SessionToken) !=null &&
+                            httpContextAcc.HttpContext.Session.GetString(DS.SessionToken).ToString().Length >0 )
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Logout">Logout</a>
+                            </li>
+                        }
+                        else
+                        {
+                             <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Login">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Registrar">Registrar</a>
+                            </li>
+                        }
+                       
                     </ul>
                 </div>
             </div>
