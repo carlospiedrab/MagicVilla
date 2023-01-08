@@ -81,3 +81,5 @@ C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\M
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
