@@ -1,10 +1,12 @@
 ﻿using MagicVilla_Utilidad;
 using MagicVilla_Web.Models;
 using MagicVilla_Web.Services.IServices;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Newtonsoft.Json;
 using System.Net;
 using System.Net.Http.Headers;
 using System.Text;
+using System.Web;
 
 namespace MagicVilla_Web.Services
 {
@@ -24,11 +26,26 @@ namespace MagicVilla_Web.Services
         {
             try
             {
-                var client = _httpClient.CreateClient("MagicAPI");
+                var client = _httpClient.CreateClient("MagicAPI"); 
                 HttpRequestMessage message = new HttpRequestMessage();
                 message.Headers.Add("Accept", "application/json");
-                message.RequestUri = new Uri(apiRequest.Url);
 
+                if(apiRequest.Parametros == null)
+                {
+                    message.RequestUri = new Uri(apiRequest.Url);
+                }
+                else
+                {
+                    var builder = new UriBuilder(apiRequest.Url);
+                    var query = HttpUtility.ParseQueryString(builder.Query);
+                    query["PageNumber"] = apiRequest.Parametros.PageNumber.ToString();
+                    query["PageSize"] = apiRequest.Parametros.PageSize.ToString();
+                    builder.Query = query.ToString();
+                    string url = builder.ToString();     //   api/Villa/VillaPaginado/PageNumber=1&PageSize=4
+                    message.RequestUri = new Uri(url);
+                }
+                
+                                                
                 if(apiRequest.Datos !=null)
                 {
                     message.Content = new StringContent(JsonConvert.SerializeObject(apiRequest.Datos),
