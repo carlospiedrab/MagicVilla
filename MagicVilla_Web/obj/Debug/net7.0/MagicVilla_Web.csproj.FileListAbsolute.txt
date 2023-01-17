@@ -247,3 +247,8 @@ C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\M
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.pdb
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Web\obj\Debug\net7.0\MagicVilla_Web.genruntimeconfig.cache
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Web\obj\Debug\net7.0\ref\MagicVilla_Web.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_Web\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll

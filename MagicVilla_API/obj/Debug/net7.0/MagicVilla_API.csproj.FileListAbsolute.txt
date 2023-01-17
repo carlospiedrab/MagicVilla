@@ -83,3 +83,8 @@ C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\M
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\obj\Debug\net7.0\MagicVilla_API.pdb
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\obj\Debug\net7.0\MagicVilla_API.genruntimeconfig.cache
 C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\obj\Debug\net7.0\ref\MagicVilla_API.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Admin\Documents\BaezStone\Udemy\RestFulApiNetCore\Proyecto\MagicVilla\MagicVilla_API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
